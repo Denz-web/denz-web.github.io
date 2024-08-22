@@ -3,11 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="myscript.js"></script>
     <title>MYP</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
 <body>
+    
     <div class="container">
         <div class="login_container">
             <div class="login_title">
@@ -41,7 +43,23 @@
             </div>
 
             <div class="signup">
-                <span>Don't have an account<a href="#">Sign Up</a></span>
+                <span>Don't have an account?
+               <label for="check">Register</label>
+                </span>
+            </div>
+            <div class="registration form">
+                <header>signup</header>
+                <form action="#">
+                    <input type="text" placeholder="Enter your email">
+                    <input type="password" placeholder="Create a password">
+                    <input type="password" placeholder="Confirm your password">
+                    <input type="button" class="button" value="signup">
+                </form>
+                <div class="signup">
+                    <span class="signup">Already have an account?
+                        <label for="check">Login</label>
+                    </span>
+                </div>
             </div>
         </div>
     </div>
